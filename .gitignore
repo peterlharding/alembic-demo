@@ -1,3 +1,35 @@
+
+# IDEs
+.vscode/
+.idea/
+
+# Archives
+*.7z
+*.gz
+*.rar
+*.tar
+*.tz
+*.zip
+
+# Sensitive
+*.pem
+*.crt
+*.csr
+*.key
+
+# macOS
+.DS_Store
+
+# Just Ignore
+*.x
+*-ignore
+
+# Project Specific (for the moment)
+data/postgres/
+!db/data
+
+
+# -----------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
