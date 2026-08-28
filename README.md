@@ -14,7 +14,8 @@ The project makes extensive use of a Makefile and make recipes
 to setup and manage the project resources.
 
 This project was originally developed on a macOS laptop and
-has not been tested on either Linux or Windows.
+has not been tested on Linux.  It has been successfully run on
+Windows 11 under WSL.
 
 # Using this Project
 
