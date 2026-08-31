@@ -21,5 +21,5 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
-    op.execute("TRUNCATE api_credentials")
+    op.execute("TRUNCATE api_credentials RESTART IDENTITY")
 

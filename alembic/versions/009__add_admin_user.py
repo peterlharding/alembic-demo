@@ -25,7 +25,7 @@ def upgrade() -> None:
 # -----------------------------------------------------------------------------
 
 def downgrade() -> None:
-    op.execute("TRUNCATE application_user")
+    op.execute("TRUNCATE application_user RESTART IDENTITY")
 
 
 # -----------------------------------------------------------------------------
